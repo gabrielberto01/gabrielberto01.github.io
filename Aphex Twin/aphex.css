@@ -1,0 +1,104 @@
+body{
+    background-color: #000
+}
+.rounded{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.test{
+    color: blue;
+    flex-direction: row-reverse;
+}
+
+.texto-richard{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+.footer-container{
+    
+    margin:auto;
+    color: aliceblue;
+    text-align: center;
+}
+.albums{
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+                        "main main main main"
+                        "main main main main"
+                        "main main main main"
+                        "main main main main"
+
+                        
+}
+#albums-title{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom:35px;
+    margin-top: 35px;
+}
+.titulo_richard{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom:35px;
+    margin-top: 35px;
+}
+#richard2{
+    width: 85%;
+    margin-bottom: 30px;
+}
+#video_title{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom:35px;
+    margin-top: 35px;
+}
+.video-container{
+    text-align: center;
+    border: #fff;
+margin-top: 100px;
+    height: 500px;
+    border: 1px;
+    padding: 10px 20px;
+}
+footer{
+    display: flex;
+    margin: 0;
+    border: 1px;
+    padding: 10px 20px;
+    flex: 1;
+    font-size: 14px;
+    background-color: #212529;
+
+}
+#labelname{
+    color: aliceblue;
+}
+#updates-title{
+    margin-bottom:35px;
+    margin-top: 35px;
+    color: aliceblue;
+    text-align: left;
+
+}
+.container-update{
+    width: 500px;
+    height: 600px;
+    border: 1px;
+    padding: 10px 20px;
+    
+}
+.checkbox{
+    flex-wrap: wrap;
+    color: aliceblue;
+  
+}
+.main-title{
+    font-size: 16px;
+}
